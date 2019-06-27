@@ -18,7 +18,7 @@ variable "private_subnet_cidr" {
 
 variable "key_path" {
   description = "SSH Public Key path"
-  default     = "/Users/saupathak/.ssh/id_rsa.pub"
+  default     = ""
 }
 
 variable "ami" {
